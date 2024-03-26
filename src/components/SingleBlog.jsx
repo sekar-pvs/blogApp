@@ -15,7 +15,7 @@ const SingleBlog = () => {
 	console.log(singleItem, "single");
 
 	return (
-		<div className=' h-full'>
+		<div className=' h-auto'>
 			{singleItem.map((item) => {
 				return <SingleCard url={item.url} item={item} key={item.id} />;
 			})}

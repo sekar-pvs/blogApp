@@ -8,7 +8,7 @@ const Content = () => {
 	const { name, blogItems } = useContext(BlogContext);
 	console.log(name);
 	return (
-		<div className='h-full'>
+		<div className=' h-auto'>
 			{blogItems.length === 0 ? (
 				<div className=' h-screen text-center text-2xl '>List is an empty</div>
 			) : (

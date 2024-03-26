@@ -32,7 +32,7 @@ const SingleCard = ({ item, url }) => {
 		<>
 			<div className=' h-full flex justify-center items-center '>
 				<div className=' h-4/6'>
-					<div className=' h-4/5 w-fit'>
+					<div className=' h-fit w-fit'>
 						<img
 							src={`../../image/${url}.jpg`}
 							alt={`${url}`}

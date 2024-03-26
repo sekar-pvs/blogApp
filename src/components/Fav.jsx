@@ -11,7 +11,7 @@ const Fav = () => {
 					Favour list is empty{" "}
 				</div>
 			) : (
-				<section className=' w-3/5  mx-8 my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-4  space-x-8 '>
+				<section className=' w-3/5  mx-8 my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-4 h-auto space-x-8 '>
 					{favour.map((item) => {
 						return <Card key={item.id} Bitem={item} />;
 					})}
