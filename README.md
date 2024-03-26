@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### BACKEND 
+ NOTE : BEFORE NPM STARTOPEN NEW TERMINAL RUN BACKEND
+### `npx json-server -p 3500 -w Data/data.json`
+
 ### `npm start`
 
 Runs the app in the development mode.\
