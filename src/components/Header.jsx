@@ -10,9 +10,9 @@ const Header = () => {
 			<div className=' text-5xl font-serif text-white'>
 				PVS<span> Blog</span>
 			</div>
-			<IoMenu />
+			{/* <IoMenu />
 			<CgMenuLeft />
-			<CgMenuLeft />
+			<CgMenuLeft /> */}
 			<div>
 				<ol className='flex space-x-16 uppercase'>
 					<li className='text-white font-semibold hover:text-slate-400 flex'>
